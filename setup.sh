@@ -6,9 +6,9 @@ if [ $# -eq 0 ]
     exit 1
 fi
 
-NAME=$0
-EMAIL=$1
-PASSWD=$2
+NAME=$1
+EMAIL=$2
+PASSWD=$3
 
 git config --global user.email $EMAIL
 git config --global user.name $NAME
