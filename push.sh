@@ -9,7 +9,7 @@ fi
 NAME=$1
 MESSAGE=$2
 
-git checkout -b $NAME
 git reset
 git add .
 git commit -m $MESSAGE
+git push origin $NAME
